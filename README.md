@@ -15,6 +15,11 @@ docker-compose logs -f
 docker-compose ps 
 ~~~
 
+## Para bajar todos los contenedores
+~~~
+docker-compose down -v
+~~~
+
 ## Para backups
 
 ### Con docker-compose
